@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="Formulier.css">
+  </head>
+  <body>
+    <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+    <h1> Een plan voor jouw ontwikkeling </h1>
+    <p> Om een eerste stap te zettennaar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantwoorden. Dit formulier helpt jou daar bij </p>
+    <p>Name:<input type="text" name="Naam" placeholder="Bv. Max Peter Bouricius">
+       <select name="carlist">
+         <option value="MD1A">MD1A</option>
+         <option value="MD1B">MD1B</option>
+       </select>
+    </p>
+    <br>
+<fieldset>
+  <legend>Welbevinden</legend>
+
+    <p>Hoe positief ben jij op dit moment over je opleiding</p>
+
+    <p>
+      <input type="radio" name="0" value="1">0
+      <input type="radio" name="1" value="1">1
+      <input type="radio" name="2" value="1">2
+      <input type="radio" name="3" value="1">3
+      <input type="radio" name="4" value="1">4
+      <input type="radio" name="5" value="1">5
+      <input type="radio" name="6" value="1">6
+      <input type="radio" name="7" value="1">7
+      <input type="radio" name="8" value="1">8
+      <input type="radio" name="9" value="1">9
+      <input type="radio" name="10" value="1">10
+
+    </p>
+
+    <p>Hoe gemotiveerd ben je momenteel om de opleiding af te maken</p>
+    <p>
+      <input type="radio" name="0-2" value="1">0
+      <input type="radio" name="1-2" value="1">1
+      <input type="radio" name="2-2" value="1">2
+      <input type="radio" name="3-2" value="1">3
+      <input type="radio" name="4-2" value="1">4
+      <input type="radio" name="5-2" value="1">5
+      <input type="radio" name="6-2" value="1">6
+      <input type="radio" name="7-2" value="1">7
+      <input type="radio" name="8-2" value="1">8
+      <input type="radio" name="9-2" value="1">9
+      <input type="radio" name="10-2" value="1">10
+
+    </p>
+    <p>Hoeveel vertrouwen heb je momenteel in je eigen kunnen?</p>
+    <p>
+      <input type="radio" name="0-3" value="1">0
+      <input type="radio" name="1-3" value="1">1
+      <input type="radio" name="2-3" value="1">2
+      <input type="radio" name="3-3" value="1">3
+      <input type="radio" name="4-3" value="1">4
+      <input type="radio" name="5-3" value="1">5
+      <input type="radio" name="6-3" value="1">6
+      <input type="radio" name="7-3" value="1">7
+      <input type="radio" name="8-3" value="1">8
+      <input type="radio" name="9-3" value="1">9
+      <input type="radio" name="10-3" value="1">10
+   </p>
+  </fieldset>
+   <br>
+   <fieldset>
+     <legend>Sterke kanten?</legend>
+   <p> wat zijn jouw sterke kanten?</p>
+   <p>
+     <input type="checkbox" name="html/css">Coderen in HTML/CSS
+     <input type="checkbox" name="java">Programmeren in Java
+     <input type="checkbox" name="javascript">Scripting: programmeren In Javascript
+     <input type="checkbox" name="planning">Planning
+     <input type="checkbox" name="samenwerken">Samenwerken
+   </p>
+   </fieldset>
+   <br>
+   <fieldset>
+     <legend>Nog te ontwikkelen</legend>
+   <p>Nog te ontwikkelen</p>
+   <p> Aan welke skills moet je nog extra aandacht besteden?</p>
+   <p>
+     <input type="checkbox" name="html/css">Coderen in HTML/CSS
+     <input type="checkbox" name="java">Programmeren in Java
+     <input type="checkbox" name="javascript">Scripting: programmeren In Javascript
+     <input type="checkbox" name="planning">Planning
+     <input type="checkbox" name="samenwerken">Samenwerken
+   </p>
+   </fieldset>
+   <br>
+   <p>Wat zijn jouw plannen voor de toekomst?</p>
+   <textarea name="suggesties" rows="8" cols="55"></textarea>
+   <input type="submit" value="Versturen">
+</form>
+   <footer>
+               <div id="validatie">
+                   <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                       <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+                   <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                       <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+                   </a>
+               </div>
+   </footer>
+
+</body>
+</html>
